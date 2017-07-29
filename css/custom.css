@@ -1,0 +1,72 @@
+/*
+Steve Hanlon GitHub portfolio webpage.
+Source code from-----> https://startbootstrap.com/template-overviews/agency/
+*/
+
+
+/*-----------------------------
+            Nav Bar
+-------------------------------*/
+
+custom .navbar-nav>.active>a:hover {
+    color: #171001;
+    background-color: #F16120;
+}
+
+.navbar-custom .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #171001;
+    background-color: #F16120;
+}
+
+
+/*hamburger with text*/
+.navbar-custom .navbar-toggle {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #171001;
+    text-transform: uppercase;
+}
+
+
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:hover {
+    color: #FEAE0B;
+    outline: 0;
+}
+
+
+
+/*-----------------------------
+            Button
+-------------------------------*/
+
+.btn-xl {
+    color: #fff;
+    background-color: #F16120;
+    border-color: #F16120;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+
+.btn-xl.active, .btn-xl:active, .btn-xl:focus, .btn-xl:hover, .open .dropdown-toggle.btn-xl {
+    color: #171001;
+    background-color: #FEAE0B;
+    border-color: #FEAE0B;
+}
+
+/*-----------------------------
+        Services Band
+-------------------------------*/
+
+.text-primary, a {
+    color: #171001;
+}
+
+.fa-inverse {
+    color: #FEAE0B;
+}
+
+.text-muted {
+    display: none;
+}
