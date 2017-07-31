@@ -4,8 +4,8 @@
 
 
 // Show and hide text for shopping cart
-$('.fa-shopping-cart').hover(function() {
-    $('.store').slideToggle(1000);
+$('.icon-w-text').click(function() {
+    $(this).children('.text-muted').slideToggle(600);
 });
 
 

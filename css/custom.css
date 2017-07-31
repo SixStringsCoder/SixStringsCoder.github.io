@@ -33,8 +33,6 @@ custom .navbar-nav>.active>a:hover {
     outline: 0;
 }
 
-
-
 /*-----------------------------
             Button
 -------------------------------*/
@@ -69,4 +67,23 @@ custom .navbar-nav>.active>a:hover {
 
 .text-muted {
     display: none;
+}
+
+.fa-stack {
+
+    border-radius: 100%;
+
+}
+
+.fa-stack:hover {
+    box-shadow: 0px 1px 6px black;
+    border: none;
+    transition: box-shadow .3s, border .3s;
+    background: #fff;
+}
+
+.fa-stack:active {
+    box-shadow: none;
+    border:1px solid darkgray;
+    border-radius: 100%;
 }
