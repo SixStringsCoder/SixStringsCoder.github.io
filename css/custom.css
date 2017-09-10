@@ -3,6 +3,11 @@ Steve Hanlon GitHub portfolio webpage.
 Source code from-----> https://startbootstrap.com/template-overviews/agency/
 */
 
+p {
+  font-family: 'Raleway', helvetica, sans;
+  font-size: 1.2em;
+  line-height: 150%;
+}
 
 /*-----------------------------
             Nav Bar
@@ -38,9 +43,9 @@ custom .navbar-nav>.active>a:hover {
 -------------------------------*/
 
 .btn-xl {
-    color: #fff;
-    background-color: #F16120;
-    border-color: #F16120;
+    color: #000;
+    background-color: #fec503;
+    border-color: #fec503;
     border-radius: 3px;
     font-size: 18px;
     padding: 20px 40px;
@@ -48,9 +53,9 @@ custom .navbar-nav>.active>a:hover {
 
 
 .btn-xl.active, .btn-xl:active, .btn-xl:focus, .btn-xl:hover, .open .dropdown-toggle.btn-xl {
-    color: #171001;
-    background-color: #FEAE0B;
-    border-color: #FEAE0B;
+    color: #f9f2f4;
+    background-color: #5b00dc;
+    border-color: #8c8c8c;
 }
 
 /*-----------------------------
