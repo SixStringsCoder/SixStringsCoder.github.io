@@ -12,8 +12,13 @@ p {
 /*-----------------------------
             Nav Bar
 -------------------------------*/
+.navbar-custom.affix {
+    background-color: #020204;
+    padding: 12px 0;
+    opacity: .9;
+}
 
-custom .navbar-nav>.active>a:hover {
+.custom .navbar-nav>.active>a:hover {
     color: #171001;
     background-color: #F16120;
 }
@@ -24,6 +29,11 @@ custom .navbar-nav>.active>a:hover {
     background-color: #F16120;
 }
 
+/* collapsed header band before scroll*/
+.container>.navbar-header {
+    background-color: #000;
+    border: black;
+}
 
 /*hamburger with text*/
 .navbar-custom .navbar-toggle {
@@ -31,7 +41,6 @@ custom .navbar-nav>.active>a:hover {
     color: #171001;
     text-transform: uppercase;
 }
-
 
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:hover {
     color: #FEAE0B;
@@ -49,6 +58,7 @@ custom .navbar-nav>.active>a:hover {
     border-radius: 3px;
     font-size: 18px;
     padding: 20px 40px;
+    transition: all .4s;
 }
 
 
@@ -57,6 +67,16 @@ custom .navbar-nav>.active>a:hover {
     background-color: #5b00dc;
     border-color: #8c8c8c;
 }
+
+
+/*-----------------------------
+        Hero Band
+-------------------------------*/
+
+.intro-heading, .intro-lead-in {
+    text-shadow: 2px 1px black;
+}
+
 
 /*-----------------------------
         Services Band
@@ -91,4 +111,14 @@ custom .navbar-nav>.active>a:hover {
     box-shadow: none;
     border:1px solid darkgray;
     border-radius: 100%;
+}
+
+
+/*-----------------------------
+        About Band
+-------------------------------*/
+
+.team-member img {
+    border: 7px solid #ddd;
+    box-shadow: 1px 1px 1px black;
 }
