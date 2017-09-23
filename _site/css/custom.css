@@ -1,0 +1,124 @@
+/*
+Steve Hanlon GitHub portfolio webpage.
+Source code from-----> https://startbootstrap.com/template-overviews/agency/
+*/
+
+p {
+  font-family: 'Raleway', helvetica, sans;
+  font-size: 1.2em;
+  line-height: 150%;
+}
+
+/*-----------------------------
+            Nav Bar
+-------------------------------*/
+.navbar-custom.affix {
+    background-color: #020204;
+    padding: 12px 0;
+    opacity: .9;
+}
+
+.custom .navbar-nav>.active>a:hover {
+    color: #171001;
+    background-color: #F16120;
+}
+
+.navbar-custom .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #171001;
+    background-color: #F16120;
+}
+
+/* collapsed header band before scroll*/
+.container>.navbar-header {
+    background-color: #000;
+    border: black;
+}
+
+/*hamburger with text*/
+.navbar-custom .navbar-toggle {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #171001;
+    text-transform: uppercase;
+}
+
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:hover {
+    color: #FEAE0B;
+    outline: 0;
+}
+
+/*-----------------------------
+            Button
+-------------------------------*/
+
+.btn-xl {
+    color: #000;
+    background-color: #fec503;
+    border-color: #fec503;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+    transition: all .4s;
+}
+
+
+.btn-xl.active, .btn-xl:active, .btn-xl:focus, .btn-xl:hover, .open .dropdown-toggle.btn-xl {
+    color: #f9f2f4;
+    background-color: #5b00dc;
+    border-color: #8c8c8c;
+}
+
+
+/*-----------------------------
+        Hero Band
+-------------------------------*/
+
+.intro-heading, .intro-lead-in {
+    text-shadow: 2px 1px black;
+}
+
+
+/*-----------------------------
+        Services Band
+-------------------------------*/
+
+.text-primary, a {
+    color: #171001;
+}
+
+.fa-inverse {
+    color: #FEAE0B;
+}
+
+.text-muted {
+    display: none;
+}
+
+.fa-stack {
+
+    border-radius: 100%;
+
+}
+
+.fa-stack:hover {
+    box-shadow: 0px 1px 6px black;
+    border: none;
+    transition: box-shadow .3s, border .3s;
+    background: #fff;
+}
+
+.fa-stack:active {
+    box-shadow: none;
+    border:1px solid darkgray;
+    border-radius: 100%;
+}
+
+
+/*-----------------------------
+        About Band
+-------------------------------*/
+
+.team-member img {
+    border: 7px solid #ddd;
+    box-shadow: 1px 1px 1px black;
+}
